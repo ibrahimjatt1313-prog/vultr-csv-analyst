@@ -1,41 +1,48 @@
-<<<<<<< HEAD
-# Vultr CSV Analyst 🚀
-*Agent Rush Hackathon Submission*
+# 📊 Vultr CSV Analyst
 
-**Vultr CSV Analyst** is an autonomous, AI-driven data analysis platform that converts natural language analytical prompts into secure, executable Python code. Built for high-speed automated data exploration, it leverages **Google Gemini LLMs** for code generation and provides robust sandboxed execution for deep-dive dataset telemetry.
+<p align="center">
+  <b>An Enterprise-Grade AI-Driven Data Analysis & Secure Sandboxing Platform</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" />
+  <img src="https://img.shields.io/badge/Python-3.10%23-blue?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+</p>
+
+---
+
+## 🚀 Overview
+
+**Vultr CSV Analyst** is an advanced data intelligence platform built for seamless CSV data processing, statistical querying, and natural language analytics. By combining the power of **Google's Gemini API**, high-performance asynchronous **FastAPI**, and a robust **Dual-Mode Sandbox (Docker/Local)**, the platform enables secure code execution and automated insights generation.
 
 ---
 
 ## ✨ Key Features
 
-* **Autonomous Code Generation:** Powered by **Gemini 3.8 Flash**, translating user prompts into clean, optimized pandas and NumPy operations.
-* **Dual-Mode Secure Sandbox:** 
-  * *Production Mode:* Isolated Docker containers with strict resource caps (Memory & CPU limits, air-gapped network).
-  * *Local Development Mode:* Intelligent local secure execution fallback for seamless testing.
-* **Advanced Diagnostics:** Automatically computes schema overviews, null-value counts, descriptive summary statistics, median/skew metrics, and ranked feature correlations.
-* **Hackathon-Ready UI:** Sleek, responsive dashboard featuring real-time execution counters, security guard status indicators, and clean diagnostic output panels.
+* **🤖 Intelligent Data Insights:** Automatically parses CSV structures, computes summary statistics, and answers complex analytical questions using Gemini AI.
+* **🔒 Dual-Mode Sandbox Execution:** Safely executes data manipulation scripts inside isolated **Docker containers** or local sandboxed environments to prevent host system exposure.
+* **⚡ High-Performance Backend:** Asynchronous REST API powered by FastAPI and Uvicorn for ultra-low latency request handling.
+* **📈 Streamlined Data Processing:** Integrates Pandas for heavy-duty data wrangling, cleaning, and transformation pipelines.
+* **🎨 Modern UI / UX:** Clean interface designed for rapid file uploads, query prompting, and visual report rendering.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
-* **Backend:** FastAPI, Uvicorn, Python
-* **AI Engine:** Google GenAI SDK (`google-genai`) & Gemini LLM
-* **Data Science Tools:** pandas, NumPy, scikit-learn (optional pipelines)
-* **Infrastructure / Security:** Docker, subprocess sandboxing containment filters
-* **Frontend:** HTML5, Tailwind CSS, JavaScript
+* **Core & API:** Python, FastAPI, Uvicorn, Pydantic
+* **AI & LLM Integration:** Google Gemini API
+* **Data Science:** Pandas, NumPy
+* **Sandbox & Deployment:** Docker, Vercel / Render ready
+* **Version Control:** Git & GitHub
 
 ---
 
-## ⚙️ Quick Start & Installation
+## ⚙️ Local Installation & Setup
 
-### 1. Clone & Set Up Virtual Environment
-```bash
-git clone [https://github.com/ibrahimjatt1313-prog/vultr-csv-analyst.git](https://github.com/ibrahimjatt1313-prog/vultr-csv-analyst.git)
-cd vultr-csv-analyst
-python -m venv venv
-# On Windows:
-venv\Scripts\activate
-=======
-# vultr-csv-analyst
->>>>>>> 8d57875c0b6b79fbfa77b2611b2f1958a7816276
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/ibrahimjatt1313-prog/vultr-csv-analyst.git](https://github.com/ibrahimjatt1313-prog/vultr-csv-analyst.git)
+   cd vultr-csv-analyst
